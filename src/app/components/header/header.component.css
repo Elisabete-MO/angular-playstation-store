@@ -1,0 +1,30 @@
+.container {
+  align-items: baseline;
+  background-color: azure;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo img {
+  width: 30%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.menu a {
+  color: blue;
+  font-weight: 900;
+}
+
+.menu a:hover {
+  color: red;
+}

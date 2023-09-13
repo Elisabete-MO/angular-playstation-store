@@ -1,0 +1,10 @@
+.container {
+  border: 2px solid #ccc;
+  align-items: baseline;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 50px;
+  width: 90%;
+}
