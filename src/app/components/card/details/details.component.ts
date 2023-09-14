@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-details',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class DetailsComponent {
 
+  @Input()
+  consoles: string[] = [];
+  @Input()
+  value: string = '';
 }

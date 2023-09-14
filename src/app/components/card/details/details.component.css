@@ -1,0 +1,27 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 0;
+  padding: 5%;
+  right: 0;
+  width: 100%;
+}
+
+.container > h3 {
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-bottom: 0.2rem;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.value > p, .consoles > li {
+  font-size: 0.9rem;
+  font-weight: 100;
+}

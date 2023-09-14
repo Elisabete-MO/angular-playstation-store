@@ -1,6 +1,7 @@
-<p>card works!</p>
-<app-label></app-label>
-<app-details></app-details>
-<a routerLink="/home" class="container">
-  <img src="../../../assets/images/bt-1.jpg" alt="Battlefield 1"/>
-</a>
+<div class="container_card">
+  <a class="card" *ngFor="let e of data" >
+    <img src="{{ e.img }}" alt="{{ e.name }}"/>
+    <app-label label="{{ e.label }}"></app-label>
+    <app-details [consoles] = "e.consoles" [value]="e.value"></app-details>
+  </a>
+</div>

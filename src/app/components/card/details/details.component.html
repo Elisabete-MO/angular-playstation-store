@@ -1,1 +1,10 @@
-<p>details works!</p>
+<div class="container">
+  <h3>Play it now!</h3>
+  <div class="row">
+    <ol class="consoles" >
+      <li *ngFor="let e of consoles">{{ e }}</li>
+    </ol>
+    <div class="value"> 
+      <p>{{ value }}</p>
+    </div>
+</div>
